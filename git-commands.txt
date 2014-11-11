@@ -1,0 +1,42 @@
+>git log
+
+Displays all the commits that we've made.
+
+
+>git log --stat
+
+Displays the commit and some stat about those commits.
+
+
+>git diff arg1, arg2
+
+Displays the changes made in arg1 and arg2
+
+
+>git clone url1
+
+Creates a clone of the repository in our local system
+
+
+>git config --global color.ui auto
+
+Makes a colored diff output. 
+"config" indicates configuration.
+"global" use the same settings everytime.
+"color.ui" paraeter name.
+"auto" value to the parameter.
+
+
+>git checkout commitid1
+
+will make the "commitid1" as the head. Will lose our actual head.
+
+
+>git status
+
+This command displays the changes made since the previous commit.
+
+
+>git diff --staged
+
+Displays the difference between the file in stage and last commit we made.

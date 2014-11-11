@@ -1,0 +1,8 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+Well an empty git repository is constructed. It has to be done so that we can initialise the git properties
+
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area gives us the chance of choosing the files we want to commit. It is more like a priority box. It will be in the working directory and repository itself. But, as we said earlier it is more like a priority box which enables us to choose which one to commit first.
