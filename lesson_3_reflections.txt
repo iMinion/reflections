@@ -6,12 +6,14 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Automatically, leverages the machine as it does not know if the change is made or not! But doing it manually becomes tricky! So, for every one stage that had been done one has to push it to the git hub cloud
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork - When we want to copy one's work to our repo in GitHub
+    clone - When we would like to work on a local system
+    branches - When we would like to make any changes to the file but do not want to loose the old data.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
