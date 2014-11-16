@@ -40,3 +40,48 @@ This command displays the changes made since the previous commit.
 >git diff --staged
 
 Displays the difference between the file in stage and last commit we made.
+
+
+>git reset --hard
+
+RESETS EVERY FILE IN THE STAGING AREA AND THE WORKING DIRECTORY TO THE PREVIOUS COMMIT.
+
+
+>git branch
+
+Displays all the branches. Running git branch only shows branches you created locally, not branches from the repository you cloned. The exception is master, which is automatically checked out as a local branch when you clone.
+
+
+>git branch arg1
+
+Creates a branch with the name of arg1
+
+
+>git log --graph --oneline arg1, arg2
+
+Displays a graph of commits of branches with names arg1 & arg2
+
+
+>git merge arg1, arg2
+
+Merges the branches arg1 & arg2
+
+
+>git show commitid1
+
+Displays the changes made wrt its parent.
+
+
+>git remote
+
+shows and creates remote repositoryinto the local system. Same like the branch
+
+
+>git remote add name url(repository page)
+
+Connects the remote repository from the local computer
+
+
+>git push/pull remotename branchname
+
+pushes/pulls from the branch to the remote

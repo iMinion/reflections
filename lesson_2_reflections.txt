@@ -6,3 +6,24 @@ Well an empty git repository is constructed. It has to be done so that we can in
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area gives us the chance of choosing the files we want to commit. It is more like a priority box. It will be in the working directory and repository itself. But, as we said earlier it is more like a priority box which enables us to choose which one to commit first.
+
+
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+While using git diff, it will compare the working directory files with the files in the staging area that are ready for committing. So, it will make it easy to look back at the chnges we've made.
+
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Instead of making a linear commits, it will be great if we can have two copies of the same code and changes made in one copy do not effect the other. Git branches help us to make our project completely organised.
+
+
+Q: How do the diagrams help you visualize the branch structure?
+
+They help us to get a tree like structure of the entire project.
+
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It simply merges two branches into one making the changes in one branch to be appended into the stages of the other. Diagram gives us with aa flow chart representation. So it will be easy to track back.
